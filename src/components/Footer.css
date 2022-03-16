@@ -1,0 +1,90 @@
+.player{
+    height: 100px;
+    background: linear-gradient(180deg, #383535 0%, rgba(133, 130, 130, 0) 100%);
+    border: 2px solid rgba(0, 0, 0, 0.21);
+    padding: 0 32px;
+    
+    display: flex;
+    align-items: center;
+    gap: 150px;
+    justify-content: center;
+    position: relative;
+}
+
+.player strong{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 28px;
+}
+
+.author{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+}
+
+.player-audio-desc{
+    position: absolute;
+    left: 32px;
+}
+.player-params{
+    display: flex;
+    flex-direction: column;
+    gap: 22px;
+    
+}
+
+.controls{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+.controls img{
+    width: 20px;
+    height: 20px;
+}
+.controls .play{
+    width: 28px;
+    height: 28px;
+}
+
+.audio-conteiner{
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+input[type=range]{
+    -webkit-appearance: none;  /* Override default CSS styles */
+    appearance: none;
+    width: 460px; /* Full-width */
+    height: 4px; /* Specified height */
+    background: #d3d3d3; /* Grey background */
+    
+    -webkit-transition: .2s;
+    transition: .5s;    
+}
+
+input[type=range]::-webkit-slider-thumb{
+    -webkit-appearance: none;
+    appearance: none;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%; 
+
+    background: #E5007B;
+    cursor: pointer;
+    -webkit-transition: .2s;
+    transition: .5s; 
+}
+
+audio{
+  display: none;
+}
+    

@@ -1,4 +1,4 @@
-export const musics = [
+const musics = [
   {
     id: 1,
     title: "Violão Acústico",
@@ -32,3 +32,5 @@ export const musics = [
     cover: 'https://storage.googleapis.com/pedagogico/frontend-files/aula-react-referencias-eventos/img5.jpg'
   }
 ]
+
+export default musics;

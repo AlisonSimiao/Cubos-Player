@@ -1,0 +1,28 @@
+nav{
+    height: 80px;
+    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 32px;
+    border-bottom: 1px solid #6A6363;
+}
+
+.profile{
+    text-transform: capitalize;
+    display: flex;
+    gap: 8px;
+    align-items: center;
+}
+.profile-text{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+}
+.profile-img{
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+}

@@ -1,1 +1,18 @@
-.container {}
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&family=Rubik:wght@400;700&display=swap');
+
+.container {
+    width: 100vw;
+    height: 100vh;
+    background: linear-gradient(black, gray);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.effect_hover{
+    transition: .5;
+}
+
+.effect_hover:hover{
+    transform: scale(1.1);
+}
